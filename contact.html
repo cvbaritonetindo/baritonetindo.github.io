@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kontak - Barito Net Indo</title>
+<link rel="icon" href="assets/logo.png">
+<style>
+:root{
+  --bg:#f7f9fb; --card:#ffffff; --accent:#08a0d6; --muted:#6b7280; --dark:#0f172a;
+  --maxw:1000px;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial; margin:0; background:var(--bg); color:var(--dark); -webkit-font-smoothing:antialiased;}
+.header{background:linear-gradient(90deg, rgba(255,255,255,0.6), rgba(255,255,255,0.6)); padding:28px 16px; border-bottom:1px solid rgba(15,23,42,0.04);}
+.container{max-width:var(--maxw); margin:0 auto; display:flex; align-items:center; gap:18px;}
+.logo{height:64px; width:64px;}
+.brand{font-weight:700; font-size:20px; letter-spacing:0.3px;}
+.nav{margin-left:auto; display:flex; gap:12px; align-items:center;}
+.nav a{color:var(--muted); text-decoration:none; font-size:14px;}
+.hero{padding:56px 16px; text-align:left;}
+.hero .card{background:var(--card); max-width:var(--maxw); margin:0 auto; padding:36px; border-radius:12px; box-shadow:0 6px 18px rgba(15,23,42,0.06); display:flex; flex-direction:column; gap:12px;}
+h1{margin:0; font-size:28px;}
+p.lead{margin:0; color:var(--muted);}
+.actions{display:flex; gap:12px; margin-top:12px;}
+.btn{background:var(--accent); color:white; padding:10px 16px; border-radius:8px; text-decoration:none; font-weight:600;}
+.secondary{background:transparent; border:1px solid rgba(15,23,42,0.06); color:var(--dark); padding:9px 14px; border-radius:8px; text-decoration:none;}
+.section{max-width:var(--maxw); margin:36px auto; padding:0 16px;}
+.grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); gap:16px;}
+.card-service{background:var(--card); padding:18px; border-radius:10px; box-shadow:0 4px 12px rgba(15,23,42,0.04);}
+.footer{padding:28px 16px; text-align:center; color:var(--muted); font-size:14px; border-top:1px solid rgba(15,23,42,0.04); margin-top:36px;}
+.contact-list{list-style:none; padding:0; margin:8px 0 0 0; color:var(--muted); font-size:14px;}
+@media(max-width:720px){ .container{flex-direction:row; align-items:center;} .nav{display:none} .hero .card{padding:20px} h1{font-size:22px} }
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <img src="assets/logo.png" class="logo" alt="logo">
+    <div>
+      <div class="brand">BARITO NET INDO</div>
+      <div style="font-size:12px; color:var(--muted)">Layanan instalasi jaringan & pengadaan barang</div>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Beranda</a>
+      <a href="about.html">Tentang Kami</a>
+      <a href="services.html">Layanan</a>
+      <a href="contact.html">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <h2>Kontak Kami</h2>
+    <p class="lead">Untuk penawaran, pengadaan, atau layanan teknis, hubungi kami melalui nomor atau email di bawah.</p>
+    <ul class="contact-list">
+      <li><strong>Telepon / WhatsApp:</strong> <a href="https://wa.me/6281347717771" target="_blank">0813-4771-7771</a></li>
+      <li><strong>Email:</strong> <a href="mailto:baritonetindo.cv@gmail.com">baritonetindo.cv@gmail.com</a></li>
+      <li><strong>Alamat:</strong> Pulau Sewangi RT 10, Kec. Alalak, Kab. Barito Kuala, Kalimantan Selatan</li>
+    </ul>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div><strong>Barito Net Indo</strong></div>
+    <div class="contact-list">Pulau Sewangi RT 10, Kec. Alalak, Barito Kuala • 0813-4771-7771 • baritonetindo.cv@gmail.com</div>
+  </div>
+</footer>
+</body>
+</html>
